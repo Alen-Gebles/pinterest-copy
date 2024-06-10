@@ -1,0 +1,91 @@
+.pageTwo{
+  position: relative;
+  z-index: 10 !important;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffd92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TwoBox{
+  position: relative;
+  width: 1500px;
+  padding-inline: 50px;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.TwoBoxInner{
+  position: relative;
+}
+.TwoBoxInner img{
+  max-width: 500px;
+  width: 40vw;
+  height: auto;
+}
+.BoxTwoText{
+  width: 40vw;
+  max-width: 600px;
+  text-align: center;
+}
+.BoxTwoText h1{
+  font-size: clamp(30px, 5vw, 60px);
+  font-weight: bold;
+  color: #c31952;
+  white-space: nowrap;
+}
+.BoxTwoText p{
+  color: #c31952;
+  font-size: clamp(18px, 2vw, 26px);
+  margin-block: 15px;
+}
+.link{
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  width: 45vw;
+  max-width: 260px;
+  height: clamp(60px, 6vw, 80px);
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100vh;
+  gap: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link p{
+  font-size: clamp(15px, 3vw, 20px);
+  color: #6e0f3c;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .TwoBox{
+    flex-direction: column;
+    width: 95vw;
+    height: 60%;
+    align-items: center;
+    padding-inline: 00px;
+  }
+  .TwoBoxInner img{
+    min-width: 280px;
+    max-width: 500px;
+    width: 50vw;
+  }
+  .BoxTwoText{
+    width: 70%;
+    max-width: 600px;
+  }
+  .BoxTwoText h1{
+    font-size: clamp(32px, 5vw, 60px);
+  }
+  .BoxTwoText p{
+    font-size: clamp(15px, 2vw, 26px);
+  }
+}

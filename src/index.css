@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.scroll-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+section {
+  scroll-snap-align: start;
+}
+@layer utilities {
+  .red_100_clr {
+    color: #e60023;
+  }
+  .red_100_bg {
+    background-color: #e60023;
+  }
+  .red_200_bg {
+    background-color: #c0001d;
+  }
+  .gray_100_clr {
+    color: rgb(226, 226, 226);
+  }
+  .gray_100_bg {
+    background-color: #e2e2e2;
+  }
+  .gray_200_bg {
+    background-color: #dedddd;
+  }
+  .yellow_100_bg {
+    background-color: #fffd92;
+  }
+  .green_100_clr {
+    color: #407a57;
+  }
+  .green_100_bg {
+    background-color: #407a57;
+  }
+  .pink_100_bg{
+    background-color: #ffe2eb;
+  }
+  .blue_100_clr{
+    color: #006b6c;
+  }
+  .centerX {
+    left: 50%;
+    transform: translateX(50%);
+  }
+  .right50 {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .centerElement {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .headPosition {
+    bottom: 60vh;
+  }
+  .imageHeight {
+    height: 70vh;
+    z-index: 1;
+  }
+  .large_font {
+    font-size: 60px;
+  }
+  .main_font {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .imgStyle {
+    min-width: 230px;
+    height: 370px;
+    border-radius: 20px;
+  }
+  .zIndex {
+    z-index: 20 !important;
+  }
+  .imgPosition {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .text_font_size {
+    font-size: clamp(18px, 2vw, 26px);
+  }
+  .header_font_size {
+    font-size: clamp(30px, 5vw, 60px);
+  }
+  .large_font_size {
+    font-size: clamp(35px, 7vw, 80px);
+  }
+  .input_box {
+    height: 700px;
+    min-width: 450px;
+    border-radius: 40px;
+    padding: 30px 50px 30px 50px;
+  }
+  .input_media{
+    position: relative;
+    height: 55px;
+    width: 80%;
+    padding-inline: 20px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 18px;
+  }
+  .input_media:hover{
+    border: 2px solid rgb(158, 158, 158);
+  }
+  .input_media:focus{
+    outline: 3px solid rgb(119, 202, 243);
+  }
+  .bg_darker{
+    background-color: rgba(0, 0, 0, 0.305);
+  }
+}
+
+@media (max-width: 700px) {
+  .navbarMenu {
+    display: none;
+  }
+}

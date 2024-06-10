@@ -1,0 +1,32 @@
+.imageColumn{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shadowNav{
+  box-shadow: 0px -40px 40px rgb(255, 255, 255);
+}
+.headline{
+  white-space: nowrap;
+  font-weight:600;
+  font-size: clamp(40px, 6vw, 65px);
+}
+
+.dots{
+  position: absolute;
+  display: flex;
+  gap: 14px;
+  bottom: -40px;
+}
+
+.dots span{
+  height: 10px;
+  width: 10px;
+  border-radius: 100vh;
+  background-color: rgb(225, 225, 225);
+}
+.dot4{
+  background-color: #407a57 !important;
+}
