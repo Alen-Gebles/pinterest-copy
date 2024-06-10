@@ -1,9 +1,9 @@
 {
-  "name": "pinterest-replica",
+  "name": "pinterest-copy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alen-gebles.github.io/pinterest-replica",
+  "homepage": "https://alen-gebles.github.io/pinterest-copy",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

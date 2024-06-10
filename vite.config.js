@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// Replace 'yourusername' and 'repositoryname' with your GitHub username and repository name
 export default defineConfig({
-  base: '/pinterest-replica/', // Replace with your repository name
   plugins: [react()],
-});
+  base: '/pinterest-copy/',
+})
