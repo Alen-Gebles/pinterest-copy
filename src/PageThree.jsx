@@ -16,23 +16,23 @@ function PageThree() {
           <div className="ThreeBoxInner">
             <img
               className="ThreeImg"
-              src="public/images/threeimage1.png"
+              src="images/threeimage1.png"
             />
             <img
               className="ThreeImg"
-              src="public/images/threeimage2.png"
+              src="images/threeimage2.png"
             />
             <img
               className="ThreeImg"
-              src="public/images/threeimage3.png"
+              src="images/threeimage3.png"
             />
             <img
               className="ThreeImg"
-              src="public/images/threeimage4.png"
+              src="images/threeimage4.png"
             />
             <img
               className="ThreeImg"
-              src="public/images/threeimage5png.png"
+              src="images/threeimage5png.png"
             />
           </div>
         </div>

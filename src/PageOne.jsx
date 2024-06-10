@@ -10,32 +10,32 @@ function PageOne(){
       </div>
       <div className="absolute bottom-0 right50 px-5 imageHeight flex gap-2">
         <div className="imageColumn">
-          <img className="imgStyle" src="public/images/image1.jpg" />
-          <img className="imgStyle" src="/images/image2.jpg" />
+          <img className="imgStyle" src="images/image1.jpg" />
+          <img className="imgStyle" src="images/image2.jpg" />
         </div>
         <div className="imageColumn top-24">
-          <img className="imgStyle" src="public/images/image3.jpg" />
-          <img className="imgStyle" src="public/images/image4.jpg" />
+          <img className="imgStyle" src="images/image3.jpg" />
+          <img className="imgStyle" src="images/image4.jpg" />
         </div>
         <div className="imageColumn top-52">
-          <img className="imgStyle" src="public/images/image5.jpg" />
-          <img className="imgStyle" src="public/images/image6.jpg" />
+          <img className="imgStyle" src="images/image5.jpg" />
+          <img className="imgStyle" src="images/image6.jpg" />
         </div>
         <div className="imageColumn top-72">
-          <img className="imgStyle" src="public/images/image7.jpg" />
-          <img className="imgStyle" src="public/images/image8.jpg" />
+          <img className="imgStyle" src="images/image7.jpg" />
+          <img className="imgStyle" src="images/image8.jpg" />
         </div>
         <div className="imageColumn top-52">
-          <img className="imgStyle" src="public/images/image9.jpg" />
-          <img className="imgStyle" src="public/images/image10.jpg" />
+          <img className="imgStyle" src="images/image9.jpg" />
+          <img className="imgStyle" src="images/image10.jpg" />
         </div>
         <div className="imageColumn top-24">
-          <img className="imgStyle" src="public/images/image11.jpg" />
-          <img className="imgStyle" src="public/images/image12.jpg" />
+          <img className="imgStyle" src="images/image11.jpg" />
+          <img className="imgStyle" src="images/image12.jpg" />
         </div>
         <div className="imageColumn">
-          <img className="imgStyle" src="public/images/image13.jpg" />
-          <img className="imgStyle" src="public/images/image14.jpg" />
+          <img className="imgStyle" src="images/image13.jpg" />
+          <img className="imgStyle" src="images/image14.jpg" />
         </div>
       </div>
 

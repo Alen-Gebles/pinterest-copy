@@ -4,7 +4,7 @@ function PageFive() {
       <section className="relative h-screen w-screen flex items-center justify-center">
         <img
           className="absolute imgPosition -z-10"
-          src="public/images/PageFiveBG.png"
+          src="images/PageFiveBG.png"
         />
         <div className="absolute block md:hidden w-screen h-screen bg_darker"></div>
         <div className="text-white z-50 md:text-black flex justify-between items-center w-2/3 flex-col md:flex-row">

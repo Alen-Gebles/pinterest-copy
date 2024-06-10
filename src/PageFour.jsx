@@ -5,13 +5,13 @@ function PageFour() {
         <div className="flex-1 h-full relative">
           <img
             className="imgPosition"
-            src="public/images/PageFourMain.png"
+            src="images/PageFourMain.png"
           />
           <div className="absolute left-1/3 top-3/4 transform -translate-x-1/2 -translate-y-1/2">
             <div className="relative">
               <img
                 className="md:w-60 w-36 h-auto rounded-3xl z-30"
-                src="public/images/PageFourMainSec.png"
+                src="images/PageFourMainSec.png"
               />
               <div className="flex flex-col items-center absolute -bottom-12 left-1/4 text-white">
                 <h4 className="font-semibold">Scout the City</h4>
@@ -21,7 +21,7 @@ function PageFour() {
 
             <img
               className="md:w-24 w-16 h-auto rounded-3xl z-40 relative bottom-12 right-12"
-              src="public/images/PageFourSecSec.png"
+              src="images/PageFourSecSec.png"
             />
           </div>
         </div>
